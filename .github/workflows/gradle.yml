@@ -1,8 +1,8 @@
 name: Build & Test with Gradle 🧪
 
 on:
-#  push:
-#    branches-ignore: [ "main" ]
+  push:
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
